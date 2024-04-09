@@ -1,3 +1,3 @@
 FROM eclipse-temurin:17
-COPY target/automatedtask automatedtask
-CMD [ "java","-jar","automatedtask" ]
+COPY target/automatedtask.jar automatedtask.jar
+CMD [ "java","-jar","automatedtask.jar" ]
